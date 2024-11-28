@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Old World</title>
+  <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+    <section id="main-section" class="main-section">
+        <div class="main-title">
+            <h1>The Old World Arcana</h1>
+            <p>Explore the world of Dungeons & Dragons with our comprehensive guide! Discover detailed information about the diverse Races, dynamic Classes, and powerful Spells that bring your adventures to life.</p>
+            <a href="#race-section" class="main-button"><span>Explore</span></a>
+        </div>
+    </section>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#race-section">Races</a></li>
+            <li><a href="#class-section">Classes</a></li>
+            <li><a href="#spell-section">Spells</a></li>
+        </ul>
+    </nav>
+    <section id="race-section" class="category-section">
+        <h2>Races</h2>
+        <div class="category-container">
+        <!-- Race List -->
+        <div class="container left">
+            <div class="category-list">
+            <input type="text" id="race-search" placeholder="Search for a race..." />
+            <div id="race-list">
+                <p class="loading">Loading races...</p>
+            </div>
+            </div>
+        </div>
+        <!-- Race Details -->
+        <div class="container">
+            <div class="item-details" id="race-details">
+            <p class="loading">Select a race to see its details.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="class-section" class="category-section">
+        <h2>Classes</h2>
+        <div class="category-container">
+            <!-- Class List -->
+            <div class="container left">
+                <div class="category-list">
+                    <input type="text" id="class-search" placeholder="Search for a class..." />
+                    <div id="class-list">
+                        <p class="loading">Loading classes...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Class Details -->
+            <div class="container">
+                <div class="item-details" id="class-details">
+                    <p class="loading">Select a class to see its details.</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="spell-section" class="category-section">
+        <h2>Spells</h2>
+        <div class="category-container">
+            <!-- Spell List -->
+            <div class="container left">
+                <div class="category-list">
+                    <input type="text" id="search" placeholder="Search for a spell..." />
+                    <div id="spell-list">
+                        <p class="loading">Loading spells...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Spell Details -->
+            <div class="container">
+                <div class="item-details" id="spell-details">
+                    <p class="loading">Select a spell to see its details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Website Created by @mykooo
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
